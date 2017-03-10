@@ -146,11 +146,11 @@ public class Persona {
         }
         
         return "Información de la persobna:n" +
-                "Nombre: "+ nombre+"n" +
-                "Sexo: "+ sexo+"n"+
-                "Edad: "+DNI+" n" +
-                "Peso: "+peso+" kgn" +
-                "Altura: "+altura+" metrosn";
+                "Nombre: "+ nombre +
+                "Sexo: "+ sexo +
+                "Edad: " +DNI + 
+                "Peso: "+ peso + " kg" +
+                "Altura: "+ altura +" metros";
     }
     
     /*
