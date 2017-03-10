@@ -7,7 +7,7 @@ package practica1;
 
 /**
  *
- * @author Jesús Rosas
+ * @author Erick Cástulo Cóporo
  */
 public class Persona {
     
