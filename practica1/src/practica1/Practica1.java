@@ -8,7 +8,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Jesús Rosas
+ * @author Erick Cástulo Cóporo
  */
 public class Practica1 {
 

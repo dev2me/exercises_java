@@ -7,7 +7,7 @@ package aulaapp;
 
 /**
  *
- * @author Jesús Rosas
+ * @author Erick Cástulo Cóporo
  */
 public class Constantes {
     public static final String[] MATERIAS={"Matematicas", "Filosofia", "Fisica"};

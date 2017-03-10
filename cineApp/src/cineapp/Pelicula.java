@@ -7,7 +7,7 @@ package cineapp;
 
 /**
  *
- * @author Jesús Rosas
+ * @author Erick Cástulo Cóporo
  */
 public class Pelicula {
     /*Atributos*/

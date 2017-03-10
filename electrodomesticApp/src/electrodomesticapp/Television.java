@@ -7,7 +7,7 @@ package electrodomesticapp;
 
 /**
  *
- * @author Jesús Rosas
+ * @author Erick Cástulo Cóporo
  */
 public class Television extends Electrodomestico{
     

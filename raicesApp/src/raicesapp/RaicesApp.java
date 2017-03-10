@@ -7,7 +7,7 @@ package raicesapp;
 
 /**
  *
- * @author Jesús Rosas
+ * @author Erick Cástulo Cóporo
  */
 public class RaicesApp {
 

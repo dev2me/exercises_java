@@ -7,7 +7,7 @@ package cineapp;
 import java.util.Scanner;
 /**
  *
- * @author Jesús Rosas
+ * @author Erick Cástulo Cóporo
  */
 public class CineApp {
 

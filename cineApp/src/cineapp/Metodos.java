@@ -7,7 +7,7 @@ package cineapp;
 
 /**
  *
- * @author Jesús Rosas
+ * @author Erick Cástulo Cóporo
  */
 public class Metodos {
     public static final String nombres[] = {"Fernando", "Laura", "Pepe", "Eufrasio"};

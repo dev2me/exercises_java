@@ -7,7 +7,7 @@ package passwordapp;
 import javax.swing.JOptionPane;
 /**
  *
- * @author Jesús Rosas
+ * @author Erick Cástulo Cóporo
  */
 public class PasswordApp {
 

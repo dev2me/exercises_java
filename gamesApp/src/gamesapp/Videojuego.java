@@ -7,7 +7,7 @@ package gamesapp;
 
 /**
  *
- * @author Jesús Rosas
+ * @author Erick Cástulo Cóporo
  */
 public class Videojuego implements Entregable{
     

@@ -7,7 +7,7 @@ package aulaapp;
 
 /**
  *
- * @author Jesús Rosas
+ * @author Erick Cástulo Cóporo
  */
 public class MetodosSueltos {
     /**

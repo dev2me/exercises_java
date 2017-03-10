@@ -7,7 +7,7 @@ package gamesapp;
 
 /**
  *
- * @author Jesús Rosas
+ * @author Erick Cástulo Cóporo
  */
 public interface Entregable {
     public void entregar();
