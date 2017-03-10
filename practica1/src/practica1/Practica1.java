@@ -39,7 +39,59 @@ public class Practica1 {
         
         // los datos que no esén completos los insertamos con los métodos set
         
+        persona1.setNombre("Laura");
+        persona1.setEdad(30);
+        persona1.setSexo('M');
+        persona1.setPeso(60);
+        persona1.setAltura(1.60);
         
+        persona2.setPeso(90.5);
+        persona2.setAltura(1.80);
+        
+        //usammos métodos para realizar la misma acción para cada objeto
+        
+        System.out.println("Persona1");
+        MuestraMensajePeso(persona1);
+        MuestraMayorDeEdad(persona1);
+        MuestraInformacion(persona1);
+        
+        System.out.println("Persona2");
+        MuestraMensajePeso(persona2);
+        MuestraMayorDeEdad(persona2);
+        MuestraInformacion(persona2);
+        
+        System.out.println("Persona3");
+        MuestraMensajePeso(persona3);
+        MuestraMayorDeEdad(persona3);
+        MuestraInformacion(persona3);
+    }
+    
+    public static void MuestraMensajePeso(Persona p) {
+        int IMC = p.calcularIMC();
+        
+        if(IMC == p.PESO_IDEAL) {
+            System.out.println("La persona esta en su peso ideal");
+        } else if ( IMC == p.INFRAPESO) {
+            System.out.println("La persona está por debajo de su peso ideal");
+        } else {
+            System.out.println("La persona está por encima de su peso ideal");
+        }
+    }
+    
+    public static void MuestraMayorDeEdad(Persona p) {
+        boolean mayor = p.esMayorDeEdad();
+        
+        if(mayor) {
+            System.out.println("La persona es mayor de edad");
+        } else {
+            System.out.println("La persona no es mayor de edad");
+        }
+    }
+    
+    public static void MuestraInformacion(Persona p) { 
+        // Invoca el método toString
+        
+        System.out.println(p);
     }
     
 }
