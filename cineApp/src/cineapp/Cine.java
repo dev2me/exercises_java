@@ -1,50 +1,54 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+// Definición del paquete 
 package cineapp;
 
 /**
  *
  * @author Erick Cástulo Cóporo
  */
+
+// Se crea una clase de acceso público
 public class Cine {
-    /*Atributos*/
+    /*Atributos privados de la clase*/
+
+    // variable de tipo asiento que almacena un arreglo de dos dimensiones
     private Asiento asientos[][];
+    // variable de tipo double para el precio
     private double precio;
+    // variable de tipo Pelcula para almacenar el tipo de película
     private Pelicula pelicula;
  
     /*Constructor*/
     public Cine(int filas, int columnas, double precio, Pelicula pelicula) {
- 
+        // objeto instaciado a partir de la clase Asiento
         asientos = new Asiento[filas][columnas];
         this.precio = precio;
         this.pelicula = pelicula;
+        // Se ejecuta un método 
         rellenaButacas();
     }
  
     /*Metodos*/
+    // Método que obtiene todos los asientos disponibles
     public Asiento[][] getAsientos() {
         return asientos;
     }
- 
+    // Método que permite agregar Asientos 
     public void setAsientos(Asiento[][] asientos) {
         this.asientos = asientos;
     }
- 
+    // Método que permite obtener el precio
     public double getPrecio() {
         return precio;
     }
- 
+    // Método que permite agregar el precio
     public void setPrecio(double precio) {
         this.precio = precio;
     }
- 
+    // Método que perimte obtener una película
     public Pelicula getPelicula() {
         return pelicula;
     }
- 
+    // Método que permite agregar una película
     public void setPelicula(Pelicula pelicula) {
         this.pelicula = pelicula;
     }

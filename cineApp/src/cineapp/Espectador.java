@@ -22,7 +22,7 @@ public class Espectador {
         this.dinero = dinero;
     }
  
-    /*Metodos*/
+    /*Metodos que permiten obtener y agregar valores*/
     public String getNombre() {
         return nombre;
     }
